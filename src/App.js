@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Welcome />} />
+          <Route path='https://sweet-sunshine-c22828.netlify.app/' element={<Home />} />
           <Route path='Message' element={<Message />} />
           <Route path='Home' element={<Home />} />
           <Route path='*' element={<Error />} />
