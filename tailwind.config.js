@@ -8,7 +8,9 @@ module.exports = {
     },
     fontFamily: {
       'Courgette': ["Courgette", 'cursive'],
-      'Philosopher': ['Philosopher', 'sans-serif']
+      'Philosopher': ['Philosopher', 'sans-serif'],
+      'Fredoka': ['Fredoka One', 'cursive'],
+      'Titan': ['Titan One', 'cursive']
     },
   },
   plugins: [],
