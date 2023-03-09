@@ -10,7 +10,7 @@ const Post = ({ profilePic, userName, lastSeen, postImage, likeCounter, lastLike
     <div className='bg-gray-100 rounded-3xl p-5 grid grid-rows'>
          <div className='bg-white rounded-3xl p-4'>
             <div className='flex gap-5 ml-5'>
-                <div className='bg-white border-4 rounded-lg border-orange-500'>
+                <div className='border-2 rounded-xl border-orange-500 pl-1'>
                     <img src={profilePic} className='w-10' alt="" />
                 </div>
                 <div className='grid grid-cols-2 w-full'>
@@ -25,7 +25,7 @@ const Post = ({ profilePic, userName, lastSeen, postImage, likeCounter, lastLike
             </div>
 
             <div className='p-5'>
-                <img src={postImage} className='rounded-3xl h-72 border-4 border-orange-500' alt="" />
+                <img src={postImage} className='w-auto rounded-3xl h-72 border-4 border-orange-500' alt="" />
             </div>
 
             <div className='px-5 pb-3 pt-2'>
